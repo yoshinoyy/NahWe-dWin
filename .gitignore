@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Local editor files
+.vscode/
+.idea/
+
+# Freebuff local project metadata
+.freebuff/
