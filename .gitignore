@@ -17,6 +17,12 @@ Thumbs.db
 # Local editor files
 .vscode/
 .idea/
+node_modules/
+backend/target/
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
 
 # Freebuff local project metadata
 .freebuff/

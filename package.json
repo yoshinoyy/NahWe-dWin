@@ -1,0 +1,12 @@
+{
+  "name": "steady-presentation-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build the Steady hackathon presentation deck",
+  "scripts": {
+    "build:presentation": "node build_presentation.js"
+  },
+  "devDependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

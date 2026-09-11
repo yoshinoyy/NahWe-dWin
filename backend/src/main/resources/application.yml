@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: steady-api
+  datasource:
+    url: ${SUPABASE_DB_URL:jdbc:h2:mem:steady;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH}
+    username: ${SUPABASE_DB_USER:sa}
+    password: ${SUPABASE_DB_PASSWORD:}
+    driver-class-name: ${SUPABASE_DB_DRIVER:org.h2.Driver}
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-dev.sql
+
+server:
+  port: ${STEADY_PORT:8080}
+
+steady:
+  allowed-origin: ${STEADY_ALLOWED_ORIGIN:http://localhost:3000}
+  openai:
+    api-key: ${OPENAI_API_KEY:}
+    model: ${OPENAI_MODEL:gpt-5-mini}
+    base-url: ${OPENAI_BASE_URL:https://api.openai.com/v1/responses}
