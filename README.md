@@ -102,7 +102,7 @@ Frontend is built with HTML, CSS, and vanilla JavaScript, structured as a mobile
 
 ### System Architecture Diagram
 
-*(Save the architecture diagram shown in chat and embed it here, for example: `![System architecture](architecture.png)`)*
+*(Save the architecture diagram shown in chat and embed it here, for example: `![System architecture](checkin-screen.png)`)*
 
 A mobile browser client sends requests to a Flask backend, which proxies queries to a Supabase database. Flask sits in between so the Supabase project key is never exposed to the browser.
 
