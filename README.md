@@ -1,6 +1,6 @@
-# Steady
+# Ballast
 
-Steady is an AI-powered student stress and workload manager. It turns deadlines, available time, energy, and stress into one realistic next step—without treating productivity as a medical diagnosis.
+Ballast is an AI-powered student stress and workload manager. It turns deadlines, available time, energy, and stress into one realistic next step—without treating productivity as a medical diagnosis.
 
 ## Architecture
 
