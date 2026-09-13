@@ -70,7 +70,7 @@ This flow shows the two layers the product actually has, a fast daily overview, 
 
 **UI Prototype:** [View on Figma](https://www.figma.com/design/SMVK9spilAepCQa8931ZwP/Stress---Workload-Manager?node-id=0-1&p=f&t=YvE0uPsekvMMFkVw-0)
 
-![Check-in screen](checkin-screen.png)
+
 The five dimension daily check-in with sliders for mental, time, physical, social, and errands.
 
 *(Add more screens below the same way, aim for 4 to 8 total, each with its own caption, for example:)*
@@ -102,7 +102,7 @@ Frontend is built with HTML, CSS, and vanilla JavaScript, structured as a mobile
 
 ### System Architecture Diagram
 
-*(Save the architecture diagram shown in chat and upload it as its own file, for example `architecture.png`, then embed it here with: `![System architecture](architecture.png)`. Use a different filename from the check-in screenshot above, they are two different images.)*
+![Check-in screen](checkin-screen.png)
 
 A mobile browser client sends requests to a Flask backend, which proxies queries to a Supabase database. Flask sits in between so the Supabase project key is never exposed to the browser.
 
