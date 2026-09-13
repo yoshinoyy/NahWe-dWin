@@ -62,7 +62,7 @@ This flow shows the two layers the product actually has, a fast daily overview, 
 
 | Date | Mentor | Feedback Received | What Was Changed |
 |---|---|---|---|
-| 13/9/2026 | Khor Jia Qian | *Include Diagram and framework name* | *(fill in after the session)* |
+| 13/9/2026 | Khor Jia Qian | *(fill in after the session)* | *(fill in after the session)* |
 
 ---
 
@@ -102,7 +102,7 @@ Frontend is built with HTML, CSS, and vanilla JavaScript, structured as a mobile
 
 ### System Architecture Diagram
 
-*(Save the architecture diagram shown in chat and embed it here, for example: `![System architecture](checkin-screen.png)`)*
+*(Save the architecture diagram shown in chat and embed it here, for example: `![System architecture](architecture.png)`)*
 
 A mobile browser client sends requests to a Flask backend, which proxies queries to a Supabase database. Flask sits in between so the Supabase project key is never exposed to the browser.
 
