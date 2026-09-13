@@ -73,14 +73,7 @@ This flow shows the two layers the product actually has, a fast daily overview, 
 
 The five dimension daily check-in with sliders for mental, time, physical, social, and errands.
 
-*(Add more screens below the same way, aim for 4 to 8 total, each with its own caption, for example:)*
 
-```
-![Dashboard](dashboard.png)
-The at-a-glance load comparison, showing an overall status of Running Hot.
-```
-
----
 
 ## 4. What Makes It Different
 
