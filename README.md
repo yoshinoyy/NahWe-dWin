@@ -56,7 +56,6 @@ Ballast gives students a single, cross domain view of their load, covering menta
 
 This flow shows the two layers the product actually has, a fast daily overview, and an optional deeper look at any one area that is running high, with a concrete action attached at both layers.
 
-*(Add your brainstorming photo or mind map image here, for example: `![Ideation board](ideation-board.png)`, with one or two lines explaining what it shows.)*
 
 ### 2.3 Mentor Consultation
 
@@ -72,6 +71,7 @@ This flow shows the two layers the product actually has, a fast daily overview, 
 
 
 The five dimension daily check-in with sliders for mental, time, physical, social, and errands.
+
 
 
 
